@@ -1,0 +1,152 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Anek Latin', sans-serif;
+}
+a{
+    text-decoration: none;
+}
+a:hover{
+    color: unset;
+}
+.nav-item a{
+    color: green;
+}
+img{
+    width: 100%;
+}
+#pagination ul li{
+    list-style-type: none;
+    margin: 0px 5px;
+}
+#pagination ul li a{
+    text-decoration: none;
+}
+.places{
+    padding: 5px 10px;
+    background-color: greenyellow;
+    position: relative;
+}
+.places{
+    color: aliceblue;
+}
+.purchased{
+    color: rgb(156, 156, 156);
+    pointer-events: none;
+}
+.purchased{
+    background-color: gray;
+}
+.popup{
+    visibility: hidden;
+    position: absolute;
+    z-index: 99;
+    width: 130px;
+    background-color: rgb(255, 237, 103);
+    padding: 5px;
+    margin-left: 5px;
+}
+.places:hover .popup{
+    visibility: visible;
+}
+.red{
+    width: 100px;
+    text-align: center;
+}
+.redDrzac{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 0px;
+}
+.addToCart{
+    background-color: green;
+}
+.parter{
+    display: flex;
+    justify-content: space-between;
+}
+.scena{
+    padding: 50px;
+    text-align: center;
+    background-color: grey;
+}
+.kupi{
+    background-color: green;
+}
+.font-weight-bold{
+    font-weight: bold;
+}
+.boja{
+    padding: 0px 10px;
+    margin-right: 10px;
+}
+.dostupna{
+    background-color: greenyellow;
+}
+.izabrana{
+    background-color: green;
+}
+.nedostupna{
+    background-color: gray;
+}
+main{
+    margin-top: 80px;
+    margin-bottom: 10px;
+}
+.repertoire{
+    border-top: 2px solid black;
+}
+.buy{
+    background-color: rgb(20, 106, 20);
+}
+.next{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#pagination a{
+    font-size: 20px;
+    margin: 0px 5px;
+    color: green;
+}
+#pagination .active{
+    color: greenyellow;
+}
+input[type=submit]{
+    background-color: greenyellow;
+}
+.green,footer a{
+    color: green;
+}
+.divLogReg{
+    min-height: 450px;
+}
+.sidebar .nav-item .nav-link i{
+    font-size: 20px!important;
+}
+.sidebar .nav-item .nav-link{
+    font-size: 25px;
+}
+#logo img{
+    width: 45px;
+}
+.mainAdmin{
+    min-height: 480px;
+}
+#pagination a{
+    text-decoration: none;
+}
+.btn{
+    border-radius: 0px;
+}
+.btnBuy{
+    background-color: green;
+    color: white;
+}
+.modal .btn:hover{
+    color: white;
+}
